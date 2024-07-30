@@ -278,11 +278,13 @@ ol{
     color:white;
     font-family: sans-serif;
     background-color:transparent;
+    white-space: nowrap;
 }
 .span p{
     color: white;
     letter-spacing: 2px;
     font-family: sans-serif;
+    white-space: nowrap;
 }
 .span button:hover{
     background-color: #5f5fff;
