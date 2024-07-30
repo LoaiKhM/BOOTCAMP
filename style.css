@@ -15,6 +15,11 @@ h6{
     border-radius: 10px;
     background: #5f5fff;
     color: white;
+    align-self: baseline;
+    position: relative;
+    top: 4%;
+    left: 10px;
+    cursor: pointer;
 }
 .fixedapp{
     width: 100%;
@@ -40,10 +45,10 @@ h6{
     
 }
 .title{
-    color: black;
     font-size: 24px;
     font-family: sans-serif;
-    letter-spacing:4px;
+    letter-spacing: 2px;
+    color: #5f5fff;
 }
 .menu{
     z-index: 1000;
@@ -53,7 +58,7 @@ h6{
     width: 100%;
     align-items: center;
     height: 60px;
-    background-color: #703b42;
+    background-color: #201E43;
 
 }
 .menu h3{
@@ -102,7 +107,7 @@ h1{
     justify-content: center;
     align-items: center;
     height:400px;
-    background-color: #EF5A6F;
+    background-color: #201E43;
     position: relative;
     top: 60px;
     margin-bottom: 60px;
@@ -116,7 +121,7 @@ h1{
     inline-size: 360px;
     margin: 0;
     font-size: 30px;
-    color: #ff6a00;
+    color: #134B70;
     letter-spacing: 1px;
     margin-right: 50px;
     font-family: sans-serif;
@@ -132,7 +137,7 @@ h1{
 }
 .sidetitle{
     text-align: right;
-    color: #ff6a00;
+    color: #134B70;
     font-family: sans-serif;
     letter-spacing: 1px;
     padding-right: 20px;
@@ -170,9 +175,6 @@ ol{
     display: flex;
     width: 28%;
     justify-content: center;
-}
-c{
-    width: 5px;
 }
 @media screen and (max-width:900px) {
     .photo2{
@@ -224,6 +226,41 @@ c{
     }
     
 }
+.tipsS{
+    font-family: sans-serif;
+    direction: rtl;
+    margin-right: 30px;
+    text-align: right;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top: 12vh;
+    width: 45vh;
+    justify-content: center;
+}
+.span button{
+    border:1px solid #5f5fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 50px;
+    color:white;
+    font-family: sans-serif;
+    background-color:transparent;
+}
+.span p{
+    color: white;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+.span button:hover{
+    background-color: #5f5fff;
+}
 @media (min-width :901px ) and (max-width:1600px){
     .photo{
         width: 30%;
@@ -243,7 +280,7 @@ c{
 }
 @keyframes pad {
     from{
-        border-left: 1px solid yellow;
+        border-left: 1px solid #508C9B;
     }
     to{
         border: 0;
