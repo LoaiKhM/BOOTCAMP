@@ -17,7 +17,7 @@ h6{
     color: white;
     align-self: baseline;
     position: relative;
-    top: 4%;
+    top: 12%;
     left: 10px;
     cursor: pointer;
 }
@@ -45,6 +45,7 @@ h6{
     
 }
 .title{
+    margin: 20px;
     font-size: 24px;
     font-family: sans-serif;
     letter-spacing: 2px;
@@ -158,6 +159,7 @@ h1{
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
+    margin-left: 20px;
 }
 .type{
     display: flex;
@@ -176,6 +178,12 @@ ol{
     width: 28%;
     justify-content: center;
 }
+@media screen and (max-width:800px) {
+    .fixedapp .container2{
+        position: relative;
+        left: 0px;
+    }
+}
 @media screen and (max-width:900px) {
     .photo2{
         width: 100px;
@@ -186,6 +194,9 @@ ol{
         animation:s-typing 2s steps(50),
         pad 2s infinite linear;
         font-size: 18px;
+    }
+    .title{
+        margin: 20px;
     }
     .tips{
         font-size: 18px;
@@ -214,6 +225,21 @@ ol{
     }
     .type{
         width: 100%;
+    }
+    .fixedapp .container2 {
+        width: 310px;
+        height: 310px;
+    }
+    .span{
+        width: 36vh !important;
+    }
+    .tipsS {
+        letter-spacing: 1px !important;
+        font-size: 15px;
+    }
+    .btn-continue{
+        top: -5%;
+        left: 10px;
     }
     h6{
         font-size: 12px;
