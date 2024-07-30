@@ -160,6 +160,8 @@ c{
     }
     .content-un{
         margin: 0;
+        height: auto;
+        margin-bottom: 10px;
     }
     .sidetitle{
         font-size: 10px;
