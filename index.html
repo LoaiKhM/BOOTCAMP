@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/cesiumjs/1.78/Build/Cesium/Cesium.js"></script>
     <link rel="stylesheet" href="./style.css">
     <title>علاج القلق المفرط</title>
 </head>
@@ -81,5 +82,17 @@
 
     </div>
 </body>
-
+<script>
+    $(document).ready(function() {
+        $('.fixedapp').css('display','flex')
+        $('html').css('overflow','hidden')
+    })
+    $(document).click(function(event){
+        const contin = $('#continue')
+        if(event.target == contin){
+            $('.fixedapp').css('display','none')
+            $('html').css('overflow','auto')
+        }
+    })
+</script>
 </html>
