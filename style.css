@@ -37,14 +37,14 @@ h6{
 .buttons{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
 }
 .get{
     display: flex;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border: 1px solid #5f5fff;
     background-color: transparent;
-    
+    border-radius: 3px;
 }
 .get:active{
     background-color: #5f5fff;
