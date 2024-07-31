@@ -41,10 +41,10 @@ h6{
 }
 .get{
     display: flex;
-    padding: 10px 40px;
+    padding: 10px 20px;
     border: 1px solid #5f5fff;
     background-color: transparent;
-    border-radius: 3px;
+    letter-spacing: 1px;
 }
 .get:active{
     background-color: #5f5fff;
