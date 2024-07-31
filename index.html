@@ -27,11 +27,14 @@
         <h3>Decreasing Stress</h3>
         <p>Made By: Salma , Loai , Yahya</p>
     </div>
-    <div class="container">
-        <h1>دليل شامل للتخلص من التوتر المفرط</h1>
-        <h6>اتبع الخطوات لتحسن حياتك النفسية</h6>
+    <div class="big-container">
+        <div class="container">
+            <h1>دليل شامل للتخلص من التوتر المفرط</h1>
+            <h6>اتبع الخطوات لتحسن حياتك النفسية</h6>
+        </div>
         <span class="span">
-            <button onclick="window.location.href= './contact-us.html'">تواصل معنا </button><p>لديك مشكلة او رأي </p>
+            <button onclick="window.location.href= './contact-us.html'">تواصل معنا </button>
+            <p>لديك مشكلة او رأي </p>
         </span>
     </div>
     <div class="cont">
@@ -46,7 +49,7 @@
                         <h3 class="sidetitle">.حيث يمكن أن تحفز الأنشطة البدنية إفراز الإندورفينات التي تجعلكَ تشعُر
                             بتحسن المزاج، وكذلك المواد الكيميائية العصبية الطبيعية التي تعزِّز من الإحساس بالراحة
                             النفسية</h3>
-                            <br><br>
+                        <br><br>
                         <h3 class="sidetitle">.حاول التركيز على حركات جسمك وانت تجري التمارين الرياضية الذي من سيقلل
                             التوتر </h3>
                     </div>
@@ -58,7 +61,7 @@
                     <div class="type">
                         <h3 class="sidetitle">.ان اتباع نظام غذائي صحي ومتوازن هو أمر مهم للغاية لذلك إحرص على تناول
                             الأكل الصحي وعدم الإفراط في الأكل بدون سبب</h3>
-                            <br><br>
+                        <br><br>
                         <h3 class="sidetitle">!يمكنك استشارة متخصص ليساعدك اذا لم تستطع تنظيم نظام صحي لنفسك</h3>
                     </div>
                     <div class="photo"><img src="./eating.jpg" class="photo2"></div>
@@ -81,7 +84,8 @@
                     <div class="type">
                         <h3 class="sidetitle">.التحدث مع صديق مقرب لك من شأنه ان يحسن حالتك المزاجية</h3>
                         <br><br>
-                        <h3 class="sidetitle">.لذلك يجب عليك أن تختار أصدقائك بعناية و أن يكونوا ايجابين لانهم سي الى مسارهم بكل تاكيد </h3>
+                        <h3 class="sidetitle">.لذلك يجب عليك أن تختار أصدقائك بعناية و أن يكونوا ايجابين لانهم سي الى
+                            مسارهم بكل تاكيد </h3>
 
                     </div>
                     <div class="photo"><img src="./friendship.png" class="photo2"></div>
@@ -89,21 +93,22 @@
 
             </ol>
         </div>
-        
+
 
     </div>
 </body>
 <script>
-    $(document).ready(function() {
-        $('.fixedapp').css('display','flex')
-        $('html').css('overflow','hidden')
+    $(document).ready(function () {
+        $('.fixedapp').css('display', 'flex')
+        $('html').css('overflow', 'hidden')
     })
-    $(document).click(function(event){
+    $(document).click(function (event) {
         const contin = $('.btn-continue')[0]
-        if(event.target == contin){
-            $('.fixedapp').css('display','none')
-            $('html').css('overflow','auto')
+        if (event.target == contin) {
+            $('.fixedapp').css('display', 'none')
+            $('html').css('overflow', 'auto')
         }
     })
 </script>
+
 </html>

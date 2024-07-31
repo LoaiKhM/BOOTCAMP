@@ -17,9 +17,10 @@ h6{
     color: white;
     align-self: baseline;
     position: relative;
-    top: 12%;
-    left: 10px;
     cursor: pointer;
+    margin-top: auto;
+    top: -10px;
+    left: 10px;
 }
 .fixedapp{
     width: 100%;
@@ -110,7 +111,7 @@ h1{
     height:400px;
     background-color: #201E43;
     position: relative;
-    top: 60px;
+    top: 50px;
     margin-bottom: 60px;
 }
 .tips{
@@ -195,6 +196,9 @@ ol{
         pad 2s infinite linear;
         font-size: 18px;
     }
+    .span{
+        top: -10vh !important;
+    }
     .title{
         margin: 20px;
     }
@@ -230,16 +234,12 @@ ol{
         width: 310px;
         height: 310px;
     }
-    .span{
-        width: 36vh !important;
-    }
     .tipsS {
         letter-spacing: 1px !important;
         font-size: 15px;
     }
     .btn-continue{
-        top: -5%;
-        left: 10px;
+    left: 3px;
     }
     h6{
         font-size: 12px;
@@ -265,8 +265,8 @@ ol{
     flex-direction: row;
     align-items: center;
     position: relative;
-    top: 12vh;
-    width: 45vh;
+    top: -10vh;
+    width: 100%;
     justify-content: center;
 }
 .span button{
