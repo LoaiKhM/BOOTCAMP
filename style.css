@@ -34,6 +34,21 @@ h6{
     top: 0;
     background-color: rgba(0,0,0,0.6);
 }
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.get{
+    display: flex;
+    padding: 10px 20px;
+    border: 1px solid #5f5fff;
+    background-color: transparent;
+    
+}
+.get:active{
+    background-color: #5f5fff;
+}
 .se{
     display: flex;
     flex-grow: 1;
