@@ -45,7 +45,7 @@
             <button class="get" id="res">اسباب التوتر المفرط</button>
             <button class="get" id="solu">حلول لمشكلة التوتر المفرط</button>
         </div>
-        <div class="inro2" id='content' style="display: none;">
+        <div class="inro2" data-id='content' style="display: none;">
             <ul>
                 <li class="tips" >
                     <div class="content-un">
@@ -56,7 +56,7 @@
                 </li>
             </ul>
         </div>
-        <div class="cont2" id="content">
+        <div class="cont2" data-id="content">
             <ol>
                 <li class="tips">مارس الرياضة او اي نشاط تحبه</li>
                 <div class="content-un">
@@ -117,7 +117,7 @@
 </body>
 <script>
     $(document).on('click','#intro',function(){
-        $('#content').css('display','none')
+        $('[data-id=content]').css('display','none')
         $('.inro2').css('display','flex')
         $('.get').css('color','black')
         $('.get').css('background-color','white')
@@ -131,7 +131,7 @@
         $('#res').css('background-color','#4444e3')
     })
     $(document).on('click','#solu',function(){
-        $('#content').css('display','none')
+        $('[data-id=content]').css('display','none')
         $('.cont2').css('display','flex')
         $('.get').css('color','black')
         $('.get').css('background-color','white')
