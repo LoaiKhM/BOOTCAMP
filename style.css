@@ -181,9 +181,8 @@ h1{
     padding-right: 25px;
     width: 100%;
     margin-right: 5px;
-    /* direction: rtl; */
     margin-left: auto;
-    /* justify-content: right; */
+    justify-content: right;
 }
 .photo2{
     width: 300px;
