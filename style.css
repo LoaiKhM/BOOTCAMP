@@ -34,16 +34,27 @@ h6{
     top: 0;
     background-color: rgba(0,0,0,0.6);
 }
+.se{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+}
+.span-button{
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: left;
+}
 .fixedapp .container2{
     width: 400px;
-    height: 400px;
+    height: auto;
     background-color: white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    
 }
 .title{
     margin: 20px;
@@ -232,7 +243,7 @@ ol{
     }
     .fixedapp .container2 {
         width: 310px;
-        height: 310px;
+        height: auto;
     }
     .tipsS {
         letter-spacing: 1px !important;
@@ -325,3 +336,4 @@ ol{
 ::-webkit-scrollbar{
     width: 5px;
 }
+
