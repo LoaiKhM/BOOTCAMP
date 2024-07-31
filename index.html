@@ -45,20 +45,51 @@
             <button class="get" id="res">اسباب التوتر المفرط</button>
             <button class="get" id="solu">حلول لمشكلة التوتر المفرط</button>
         </div>
+        <div class="res" data-id='content' style="display: none;">
+            <ul>
+                <li class="tips23">
+                    اسباب التوتر المفرط
+                </li>
+                <div class="content-un" style="height: auto;direction: rtl; flex-direction: row;">
+                    <div class="type">
+                        <h3 class="sidetitle">اسباب التوتر المفرط متعددة جدا ولكن منها :</h3>
+                        <ol style="direction: rtl;" class="s-ol">
+                            <li>
+                                نقص الدعم النفسي
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="photo"><img src="./quest.avif" class="photo2"></div>
+                </div>
+
+            </ul>
+        </div>
         <div class="inro2" data-id='content' style="display: none;">
             <ul>
                 <li class="tips23">
-                    
-                    مقدمة عن التوتر المفرط 
+
+                    مقدمة عن التوتر المفرط
                 </li>
-                    <div class="content-un" style="height: auto;direction: rtl; justify-content: right;">
-                        <h3 class="sidetitle">رد فعل الجسم لأي تغيير يتطلب تكيفاً أو إستجابة، ويتفاعل الجسم مع هذه التغيرات باستجابات جسدية وعقلية وعاطفية. </h3>
+                <div class="content-un" style="height: auto;direction: rtl; flex-direction: row;">
+                    <div class="type">
+                        <h3 class="sidetitle">التوتر المفرط مشكلة يعاني منها الكثير من الناس وتعوقهم عن ممارسة حياتهم
+                            بشكل طبيعي.</h3>
+                        <br><br>
+                        <h3 class="sidetitle">وفيها يشعر الأشخاص بالضغط النفسي الشديد ولا يستطيع ان يخرج منه بسهولة.
+                        </h3>
+                        <br><br>
+                        <h3 class="sidetitle">ويحدث بسبب مواجهة الشخص لأشياء تفوق قدرته أو حديثة عليه.</h3>
+                        <br><br>
+                        <h3 class="sidetitle">وفي بعض الأحيان يؤدي عدم التحكم به الى آثار سلبية مثل الآكتاب والآلم الجسدي وغيره.</h3>
+                        
                     </div>
-                
+                    <div class="photo"><img src="./stress.jpg" class="photo2"></div>
+                </div>
+
             </ul>
         </div>
         <div class="cont2" data-id="content">
-            <ol>
+            <ol class="ol">
                 <li class="tips">مارس الرياضة او اي نشاط تحبه</li>
                 <div class="content-un">
                     <div class="type">
@@ -117,32 +148,34 @@
     </div>
 </body>
 <script>
-    $(document).on('click','#intro',function(){
-        $('[data-id=content]').css('display','none')
-        $('.inro2').css('display','flex')
-        $('.get').css('color','black')
-        $('.get').css('background-color','white')
-        $('#intro').css('color','white')
-        $('#intro').css('background-color','#4444e3')
+    $(document).on('click', '#intro', function () {
+        $('[data-id=content]').css('display', 'none')
+        $('.inro2').css('display', 'flex')
+        $('.get').css('color', 'black')
+        $('.get').css('background-color', 'white')
+        $('#intro').css('color', 'white')
+        $('#intro').css('background-color', '#4444e3')
     })
-    $(document).on('click','#res',function(){
-        $('.get').css('color','black')
-        $('.get').css('background-color','white')
-        $('#res').css('color','white')
-        $('#res').css('background-color','#4444e3')
+    $(document).on('click', '#res', function () {
+        $('[data-id=content]').css('display', 'none')
+        $('.res').css('display', 'flex')
+        $('.get').css('color', 'black')
+        $('.get').css('background-color', 'white')
+        $('#res').css('color', 'white')
+        $('#res').css('background-color', '#4444e3')
     })
-    $(document).on('click','#solu',function(){
-        $('[data-id=content]').css('display','none')
-        $('.cont2').css('display','flex')
-        $('.get').css('color','black')
-        $('.get').css('background-color','white')
-        $('#solu').css('color','white')
-        $('#solu').css('background-color','#4444e3')
+    $(document).on('click', '#solu', function () {
+        $('[data-id=content]').css('display', 'none')
+        $('.cont2').css('display', 'flex')
+        $('.get').css('color', 'black')
+        $('.get').css('background-color', 'white')
+        $('#solu').css('color', 'white')
+        $('#solu').css('background-color', '#4444e3')
     })
     $(document).ready(function () {
-        $('.cont2').css('display','flex')
-        $('#solu').css('color','white')
-        $('#solu').css('background-color','#4444e3')
+        $('.cont2').css('display', 'flex')
+        $('#solu').css('color', 'white')
+        $('#solu').css('background-color', '#4444e3')
 
         $('.fixedapp').css('display', 'flex')
         $('html').css('overflow', 'hidden')
