@@ -45,9 +45,9 @@
             <button class="get" id="res">اسباب التوتر المفرط</button>
             <button class="get" id="solu">حلول لمشكلة التوتر المفرط</button>
         </div>
-        <div class="inro2" id='content'>
+        <div class="inro2" id='content' style="display: none;">
             <ul>
-                <li class="tips" style="display: none;">
+                <li class="tips" >
                     <div class="content-un">
                         <h1 class="sidetitle">
                             مقدمة عن التوتر المفرط 
@@ -117,8 +117,8 @@
 </body>
 <script>
     $(document).on('click','#intro',function(){
-        $('#content').css('display','none')
-        $('.intro2').css('display','flex')
+        // $('#content').css('display','none')
+        // $('.intro2').css('display','flex')
         $('.get').css('color','black')
         $('.get').css('background-color','white')
         $('#intro').css('color','white')
@@ -131,15 +131,14 @@
         $('#res').css('background-color','#4444e3')
     })
     $(document).on('click','#solu',function(){
-        $('#content').css('display','none')
-        $('.cont2').css('display','flex')
+        // $('#content').css('display','none')
+        // $('.cont2').css('display','flex')
         $('.get').css('color','black')
         $('.get').css('background-color','white')
         $('#solu').css('color','white')
         $('#solu').css('background-color','#4444e3')
     })
     $(document).ready(function () {
-        $('.content-un').css('display','none')
         $('.cont2').css('display','flex')
         $('#solu').css('color','white')
         $('#solu').css('background-color','#4444e3')
