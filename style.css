@@ -209,6 +209,7 @@ ol{
     }
     .span{
         top: -10vh !important;
+        font-size: 11px;
     }
     .title{
         margin: 20px;
@@ -250,7 +251,6 @@ ol{
         font-size: 15px;
     }
     .btn-continue{
-    left: 3px;
     }
     h6{
         font-size: 12px;
