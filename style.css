@@ -231,12 +231,21 @@ h1{
     
 }
 @media screen and (max-width:900px) {
+    .s-ol{
+        position:relative;
+        padding:0;
+        inline-size:22vh;
+        left:20px;
+        font-size: 14px !important;
+        letter-spacing: 2px;
+    }
     .get{
         font-size: 8px;
         padding: 10px 10px;
     }
     .tips23{
-        font-size:20px !important;
+        font-size: 16px !important;
+        left: -25px !important;
     }
     .photo2{
         width: 100px;
@@ -388,4 +397,3 @@ h1{
 ::-webkit-scrollbar{
     width: 5px;
 }
-
