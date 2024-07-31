@@ -178,7 +178,6 @@ h1{
     flex-direction: row-reverse;
     height: 300px;
     align-items: center;
-    padding-right: 25px;
     width: 100%;
     margin-right: 5px;
     margin-left: auto;
@@ -284,7 +283,7 @@ ol,ul{
 .tips23{
     direction: rtl;
     position: relative;
-    left: -30px;
+    left: -50px;
     font-size: 30px;
     letter-spacing: 2px;
     color: #134B70;
